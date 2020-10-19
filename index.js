@@ -31,4 +31,4 @@ client.on("guildMemberRemove", function(member) {
 
 });
 
-client.login(require("./config.json").token);
+client.login(process.env.BOT_TOKEN);
