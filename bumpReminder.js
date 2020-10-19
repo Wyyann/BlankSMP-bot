@@ -1,4 +1,4 @@
-var botInteractionsChannel = "726535388394684478";
+var botInteractionsChannel = "751062855880802324";
 
 module.exports = {message: function(discord, client, msg, args, cmd) {
 
@@ -8,7 +8,7 @@ module.exports = {message: function(discord, client, msg, args, cmd) {
                 if(msg.embeds[0].description.includes("Bump done")) {
                     setTimeout(function() {
                         // ping
-                        client.channels.cache.get(botInteractionsChannel).send("<@271910522058702850>").then(function(pingMsg) {
+                        client.channels.cache.get(botInteractionsChannel).send("<@271910522058702850>, <@319456708495802369>").then(function(pingMsg) {
                             pingMsg.delete();
                         });
 
