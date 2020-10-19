@@ -1,0 +1,13 @@
+{
+    "name": "wytcraft_bot",
+    "version": "1.0.0",
+    "author": {
+        "name": "TypeError"
+    },
+    "dependencies": {
+        "discord.js": "12.2.0"
+    },
+    "scripts": {
+        "start": "node index.js"
+    }
+}
