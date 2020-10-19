@@ -1,4 +1,4 @@
-var memberLogChannel = "726534995069632522";
+var memberLogChannel = "767854489247154198";
 
 module.exports = {guildMemberAdd: function(discord, client, member) {
 
