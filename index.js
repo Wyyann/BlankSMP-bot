@@ -14,20 +14,20 @@ client.on("message", function(msg) {
     var args = msg.content.split(" ");
     var cmd = args.shift().toLowerCase();
     
-    require("./features/bumpReminder.js").message(discord, client, msg, args, cmd);
+    require("./bumpReminder.js").message(discord, client, msg, args, cmd);
 
 
 });
 
 client.on("guildMemberAdd", function(member) {
 
-    require("./features/memberLog.js").guildMemberAdd(discord, client, member);
+    require("./memberLog.js").guildMemberAdd(discord, client, member);
 
 });
 
 client.on("guildMemberRemove", function(member) {
 
-    require("./features/memberLog.js").guildMemberRemove(discord, client, member);
+    require("./memberLog.js").guildMemberRemove(discord, client, member);
 
 });
 
